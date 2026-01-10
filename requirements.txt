@@ -1,0 +1,7 @@
+# Site Mapper Dependencies
+crawl4ai
+google-generativeai
+python-dotenv
+beautifulsoup4
+lxml
+tldextract
