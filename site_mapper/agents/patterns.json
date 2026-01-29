@@ -1,0 +1,170 @@
+{
+    "core_patterns": {
+        "authentication": {
+            "name": "Authentication",
+            "elements": [
+                "input[type=email]",
+                "input[type=password]",
+                "login",
+                "sign in",
+                "sign up",
+                "register",
+                "forgot password",
+                "reset password"
+            ],
+            "urls": [
+                "/login",
+                "/signin",
+                "/signup",
+                "/register",
+                "/auth",
+                "/account"
+            ],
+            "description": "User login, registration, and password recovery flows"
+        },
+        "search": {
+            "name": "Search & Browse",
+            "elements": [
+                "input[type=search]",
+                "search",
+                "filter",
+                "sort",
+                "category",
+                "results"
+            ],
+            "urls": [
+                "/search",
+                "?q=",
+                "?query=",
+                "?keyword=",
+                "/browse",
+                "/explore"
+            ],
+            "description": "Searching, filtering, and browsing content"
+        },
+        "shopping": {
+            "name": "Shopping",
+            "elements": [
+                "add to cart",
+                "buy now",
+                "cart",
+                "checkout",
+                "payment",
+                "quantity",
+                "wishlist",
+                "price"
+            ],
+            "urls": [
+                "/cart",
+                "/checkout",
+                "/product",
+                "/item",
+                "/shop",
+                "/store"
+            ],
+            "description": "E-commerce browsing, cart, and checkout flows"
+        },
+        "navigation": {
+            "name": "Navigation",
+            "elements": [
+                "menu",
+                "navbar",
+                "sidebar",
+                "breadcrumb",
+                "footer",
+                "home",
+                "back"
+            ],
+            "urls": [
+                "/",
+                "/home",
+                "/about",
+                "/contact",
+                "/help"
+            ],
+            "description": "Site navigation and information pages"
+        },
+        "forms": {
+            "name": "Form Submission",
+            "elements": [
+                "form",
+                "input",
+                "textarea",
+                "submit",
+                "send",
+                "contact",
+                "feedback"
+            ],
+            "urls": [
+                "/contact",
+                "/feedback",
+                "/apply",
+                "/submit",
+                "/form"
+            ],
+            "description": "Contact forms, feedback, and data submission"
+        },
+        "content": {
+            "name": "Content Consumption",
+            "elements": [
+                "article",
+                "video",
+                "image",
+                "gallery",
+                "play",
+                "read more",
+                "share"
+            ],
+            "urls": [
+                "/article",
+                "/blog",
+                "/news",
+                "/video",
+                "/gallery",
+                "/post"
+            ],
+            "description": "Reading articles, watching videos, viewing content"
+        },
+        "account": {
+            "name": "Account Management",
+            "elements": [
+                "profile",
+                "settings",
+                "preferences",
+                "edit",
+                "update",
+                "delete account",
+                "logout"
+            ],
+            "urls": [
+                "/profile",
+                "/settings",
+                "/account",
+                "/preferences",
+                "/my-"
+            ],
+            "description": "User profile and account settings management"
+        },
+        "booking": {
+            "name": "Booking & Reservations",
+            "elements": [
+                "book",
+                "reserve",
+                "schedule",
+                "calendar",
+                "date picker",
+                "time slot",
+                "appointment"
+            ],
+            "urls": [
+                "/book",
+                "/reserve",
+                "/schedule",
+                "/appointment",
+                "/calendar"
+            ],
+            "description": "Booking appointments, reservations, and scheduling"
+        }
+    },
+    "learned_patterns": {}
+}
