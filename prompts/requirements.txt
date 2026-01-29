@@ -1,0 +1,4 @@
+browser-use[video]
+python-dotenv
+google-generativeai
+tqdm
